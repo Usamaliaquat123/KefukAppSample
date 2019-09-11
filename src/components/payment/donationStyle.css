@@ -1,0 +1,498 @@
+@font-face {
+  font-family: "Lato Medium";
+  src: url("./../../assets/fonts/Lato2OFL/Lato-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Lato Light";
+  src: url("./../../assets/fonts/Lato2OFL/Lato-Light.ttf");
+}
+
+@font-face {
+  font-family: "Lato Bold";
+  src: url("./../../assets/fonts/Lato2OFL/Lato-Bold.ttf");
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+  .donationOneTimeText {
+    font-size: 5vw !important;
+  }
+  .selectdonationFrequency > p {
+    font-size: 5.3vw !important;
+  }
+  .donateNowButton {
+    background-color: #03b9fe;
+    margin-top: -2%;
+    width: 60% !important;
+    text-align: center;
+    padding: 12px;
+    font-size: 3vw;
+    float: right;
+    border-radius: 50px;
+  }
+  .cardContainer {
+    background: rgba(5, 70, 115, 0.9) none repeat scroll 0% 0%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    width: 700px !important;
+    color: aliceblue;
+  }
+  .descContainerSelectors {
+    font-size: 5vw !important;
+  }
+  .paymentAmountselector {
+    font-size: 11.9vw !important;
+    justify-content: center !important;
+    margin-left: 9% !important;
+  }
+  .enterCustomDonationText > p {
+    color: #ffffff;
+    text-decoration-line: underline;
+    font-size: 4.5vw !important;
+    font-family: "Lato Light";
+    margin-top: 2%;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1024px) {
+  .donationOneTimeText {
+    font-size: 5vw !important;
+  }
+  .selectdonationFrequency > p {
+    font-size: 5.3vw !important;
+  }
+  .donateNowButton {
+    background-color: #03b9fe;
+    margin-top: -2%;
+    width: 70% !important;
+    text-align: center;
+    padding: 12px;
+    font-size: 3vw;
+    float: right;
+    border-radius: 50px;
+  }
+  .cardContainer {
+    background: rgba(5, 70, 115, 0.9) none repeat scroll 0% 0%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 950px !important;
+    color: aliceblue;
+  }
+  .descContainerSelectors {
+    font-size: 5vw !important;
+  }
+  .paymentAmountselector {
+    font-size: 11.9vw !important;
+    justify-content: center !important;
+    margin-left: 9% !important;
+  }
+  .enterCustomDonationText > p {
+    color: #ffffff;
+    text-decoration-line: underline;
+    font-size: 4.5vw !important;
+    font-family: "Lato Light";
+    margin-top: 2%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .donationOneTimeText {
+    font-size: 5vw !important;
+  }
+  .selectdonationFrequency > p {
+    font-size: 5.3vw !important;
+  }
+  .donateNowButton {
+    background-color: #03b9fe;
+    margin-top: -5%;
+    width: 70% !important;
+    text-align: center;
+    padding: 12px;
+    float: right;
+    border-radius: 50px;
+  }
+  .cardContainer {
+    background: rgba(5, 70, 115, 0.9) none repeat scroll 0% 0%;
+    height: auto;
+    width: 100% !important;
+    color: aliceblue;
+    margin-left: -0% !important;
+  }
+  .descContainerSelectors {
+    font-size: 5vw !important;
+  }
+  .paymentAmountselector {
+    font-size: 11.9vw !important;
+    justify-content: center !important;
+    margin-left: 9% !important;
+  }
+  .enterCustomDonationText > p {
+    color: #ffffff;
+    text-decoration-line: underline;
+    font-size: 4.5vw !important;
+    font-family: "Lato Light";
+    margin-top: 2%;
+  }
+}
+
+.selectedOntime {
+  color: #fff;
+  padding: 20px 40px;
+  float: right;
+  width: 50%;
+  text-align: center;
+  background-color: #4698d0;
+  font-weight: bold;
+  font-family: "Lato Light";
+}
+.selectedMonthly {
+  text-align: center;
+  padding: 20px 40px;
+  width: 50%;
+  background-color: #4698d0;
+  font-weight: bold;
+  color: white;
+  font-family: "Lato Light";
+}
+.notSelectedMonthly {
+  text-align: center;
+  padding: 20px 40px;
+  width: 50%;
+  background-color: #fff;
+  font-weight: bold;
+  color: #5c5c5e;
+  font-family: "Lato Light";
+}
+.selectedcontainerLabelDonationFreq {
+  display: block;
+  position: relative;
+  padding-left: 10px;
+  padding-top: 5px;
+  /* margin-bottom: 0px; */
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  font-weight: bold;
+  color: #fff;
+}
+.containerLabelDonationFreq {
+  display: block;
+  position: relative;
+  padding-left: 10px;
+  padding-top: 5px;
+  /* margin-bottom: 0px; */
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  font-weight: bold;
+  color: #5c5c5e;
+}
+.selectedcontainerLabelDonationFreq input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.containerLabelDonationFreq input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.checkmarkDonationFreq:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.checkmarkDonationFreq {
+  position: absolute;
+  top: 7px;
+  left: -24px;
+  /* margin-right: 31px; */
+  height: 26px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+.selectedcontainerLabelDonationFreq input:checked ~ .checkmarkDonationFreq {
+  background-color: #fff;
+}
+.containerLabelDonationFreq input:checked ~ .checkmarkDonationFreq {
+  background-color: #03b9fe;
+}
+.selectedcontainerLabelDonationFreq .checkmarkDonationFreq:after {
+  top: 8px;
+  left: 8px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #4698d0;
+}
+.selectedcontainerLabelDonationFreq
+  input:checked
+  ~ .checkmarkDonationFreq:after {
+  display: block;
+}
+.containerLabelDonationFreq .checkmarkDonationFreq:after {
+  top: 8px;
+  left: 8px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #fff;
+}
+.containerLabelDonationFreq input:checked ~ .checkmarkDonationFreq:after {
+  display: block;
+}
+
+/* /////////////////////////////////////// */
+/* /////////////////////////////////////// */
+/* /////////////////////////////////////// */
+/* /////////////////////////////////////// */
+/* /////////////////////////////////////// */
+/* /////////////////////////////////////// */
+
+.paymentAmountselector {
+  font-size: 3.9vw;
+}
+.descContainerSelectors {
+  font-size: 1vw;
+  font-weight: 100;
+}
+.containerToggle {
+  padding-top: 4%;
+  padding-left: 4%;
+}
+.selectedContainerLabel {
+  display: block;
+  position: relative;
+  padding-left: 10px;
+  /* margin-bottom: 0px; */
+  /* padding-top: -6px; */
+  cursor: pointer;
+  /* padding-bottom: -9px; */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  font-weight: bold;
+  color: #ffffff;
+}
+/* The container */
+.containerLabel {
+  display: block;
+  position: relative;
+  padding-left: 10px;
+  /* margin-bottom: 0px; */
+  /* padding-top: -6px; */
+  cursor: pointer;
+  /* padding-bottom: -9px; */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  font-weight: bold;
+  color: #5c5c5e;
+}
+.selectedContainerLabel input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+/* Hide the browser's default radio button */
+.containerLabel input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 29px;
+  left: 3px;
+  /* margin-right: 31px; */
+  height: 26px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+.selectedContainerLabel:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+.selectedContainerLabel input:checked ~ .checkmark {
+  background-color: #fff;
+}
+/* On mouse-over, add a grey background color */
+.containerLabel:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.containerLabel input:checked ~ .checkmark {
+  background-color: #eb5d5f;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.selectedContainerLabel input:checked ~ .checkmark:after {
+  display: block;
+}
+/* Show the indicator (dot/circle) when checked */
+.containerLabel input:checked ~ .checkmark:after {
+  display: block;
+}
+.selectedContainerLabel .checkmark::after {
+  top: 8px;
+  left: 8px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #4698d0;
+}
+/* Style the indicator (dot/circle) */
+.containerLabel .checkmark:after {
+  top: 8px;
+  left: 8px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: white;
+}
+
+/* /////////////////////////////////////// */
+/* /////////////////////////////////////// */
+/* /////////////////////////////////////// */
+/* /////////////////////////////////////// */
+/* /////////////////////////////////////// */
+/* /////////////////////////////////////// */
+
+.cardContainer {
+  background: rgba(5, 70, 115, 0.9) none repeat scroll 0% 0%;
+  height: auto;
+  width: 80%;
+  padding: 7.6%;
+  color: aliceblue;
+  margin-left: 4%;
+}
+
+/* Selected payment cards */
+.selectedPaymentCardItem {
+  background: #4698d0;
+  padding: 25px 5px;
+  padding-right: 5px;
+  width: 100%;
+  border: 0.1px solid #5c5c5e;
+  padding-right: 18px;
+}
+.paymentCardItem {
+  background: #ffffff;
+  padding: 25px 5px;
+  padding-right: 5px;
+  width: 100%;
+  border: 0.1px solid #5c5c5e;
+  padding-right: 18px;
+}
+.paymentCardItemDText {
+  font-size: 0.8vw;
+  font-family: "Lato Light";
+  color: #5c5c5e;
+}
+.paymentCardItemMoney {
+  font-size: 2.4vw;
+  color: #5c5c5e;
+  font-weight: bold;
+}
+.enterCustomDonationText > p {
+  color: #ffffff;
+
+  text-decoration-line: underline;
+
+  font-size: 0.8vw;
+
+  font-family: "Lato Light";
+
+  margin-top: 2%;
+}
+.selectdonationFrequency > p {
+  font-size: 1.3vw;
+  font-family: "Lato Light";
+  color: #ffffff;
+
+  font-weight: bold;
+}
+
+.donationFrequencyButtonOneTime {
+  color: #404040;
+
+  padding: 20px 40px;
+
+  float: right;
+
+  width: 50%;
+
+  text-align: center;
+
+  background-color: #fff;
+
+  font-weight: bold;
+
+  font-family: "Lato Light";
+}
+.donationFrequencyButtonMonthly {
+  font-weight: bold;
+
+  font-family: "Lato Light";
+
+  text-align: center;
+  padding: 20px 40px;
+  width: 50%;
+  background-color: #fff;
+
+  font-weight: bold;
+
+  font-family: "Lato Light";
+}
+.donationMonthlyText {
+  font-size: 1vw;
+
+  font-weight: bold;
+  font-family: "Lato Bold";
+}
+.donateNowAndCancel {
+  margin-top: 23%;
+}
+.donationOneTimeText {
+  font-size: 1vw;
+
+  font-weight: bold;
+  font-family: "Lato Bold";
+}
+.donateNowButton {
+  background-color: #03b9fe;
+
+  width: 50%;
+
+  text-align: center;
+
+  padding: 12px;
+
+  float: right;
+
+  border-radius: 50px;
+}
+
+.cancelBbutton {
+  font-size: 18px;
+
+  text-decoration: underline;
+
+  cursor: pointer;
+
+  padding-top: 0%;
+}

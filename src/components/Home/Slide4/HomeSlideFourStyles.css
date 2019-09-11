@@ -1,0 +1,428 @@
+@font-face {
+  font-family: "Harabara Bold";
+  src: url("./../../../assets/fonts/Montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Harabara Medium";
+  src: url("./../../../assets/fonts/Montserrat/Montserrat-Medium.ttf");
+}
+
+.containerSlide {
+  background: #ff7277;
+
+  min-height: 100%;
+
+  height: auto;
+
+  width: 100%;
+
+  padding-bottom: 9.7%;
+
+  padding-top: 3%;
+}
+.secondLayerContainer {
+  width: 80%;
+  /* position: absolute; */
+  background: #ff8e92;
+  /* margin-top: 100px; */
+  height: 406px;
+}
+
+.imageLayer4 {
+  margin-top: -24.1%;
+  position: absolute;
+  right: 0;
+}
+.imageLayer4 > img {
+  width: 900px;
+}
+.buttonWhatWeDo {
+  padding: 10px 10px;
+
+  font-size: 0.7vw;
+
+  color: black;
+
+  width: 149px;
+
+  background: #fff;
+
+  height: 37px;
+
+  margin-left: 7%;
+
+  margin-bottom: 2%;
+}
+.buttonWhatWeDo > p {
+  text-align: center;
+}
+
+.containerTextInner {
+  padding: 4% 7%;
+  width: 66%;
+  padding-bottom: 4%;
+  padding-left: 7%;
+
+  padding-left: 12%;
+}
+.headingText {
+  font-family: "Harabara Bold";
+  color: #414865;
+  font-size: 37px;
+}
+
+.descriptionText {
+  font-family: "Harabara Medium";
+
+  color: #414865;
+
+  font-size: 1vw;
+
+  margin-right: 100px;
+}
+.buttonLastBlack:hover {
+  color: aliceblue;
+}
+.buttonLastBlack {
+  text-decoration: none;
+  padding: 10px 10px;
+
+  font-size: 0.9vw;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 8%;
+  width: 153px;
+  background: #414865;
+  height: 42px;
+  border-radius: 90px;
+  text-align: center;
+  margin-left: 0%;
+  font-weight: bold;
+}
+@media screen and (max-width: 1920px) {
+  .imageLayer4 {
+    margin-top: -40.1%;
+    position: absolute;
+    right: 0;
+  }
+  .imageLayer4 > img {
+    /* width: 900px; */
+    width: 730px;
+    margin-top: -10px;
+    height: auto;
+  }
+}
+@media (min-width: 600px) and (max-width: 772px) {
+  .containerTextInner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 45%;
+  }
+  .buttonLastBlack {
+    text-decoration: none;
+    padding-bottom: 19px !important;
+    font-size: 4.7vw !important;
+    color: #fff;
+    position: absolute;
+    width: 30% !important;
+    background: #414865;
+    height: auto !important;
+    border-radius: 90px;
+    text-align: center;
+    margin-left: 25% !important;
+    font-weight: bold;
+  }
+  .imageLayer4 {
+    margin-top: -43.73% !important;
+    position: absolute;
+    right: 0;
+  }
+  .imageLayer4 > img {
+    width: 551px;
+    height: auto;
+  }
+  .descriptionText {
+    margin-right: 0;
+    font-size: 4vw !important;
+  }
+  .headingText {
+    margin-right: 0;
+    font-size: 6vw !important;
+  }
+
+  .buttonWhatWeDo {
+    font-size: 3.4vw;
+    font-weight: bold;
+    color: black;
+    width: 50%;
+    padding-top: 6%;
+    margin: auto;
+    background: #fff;
+    text-align: center;
+    height: auto;
+  }
+  .secondLayerContainer {
+    width: 100%;
+    background: #ff8e92;
+    height: auto;
+    margin-bottom: 60%;
+  }
+  .containerTextInner {
+    width: 100%;
+  }
+  .headingText {
+    font-family: "Harabara Bold";
+    color: #414865;
+    font-size: 37px;
+    text-align: center;
+  }
+  .descriptionText {
+    font-family: "Harabara Medium";
+    color: #414865;
+    text-align: center;
+  }
+
+  .imageLayer4 {
+    margin-top: -34.5%;
+    margin-right: 90px !important;
+    display: block;
+    margin-left: 15%;
+  }
+  .containerSlide {
+    padding-bottom: 14.2% !important;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1024px) {
+  .buttonWhatWeDo {
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    width: 25%;
+    background: #fff;
+    text-align: center;
+    padding-top: auto;
+    padding: 1% 2% 4% 2%;
+  }
+  .buttonLastBlack {
+    text-decoration: none;
+    padding-bottom: 15px !important;
+    font-size: 1.7vw !important;
+    margin-top: 3%;
+    color: #fff;
+    width: 15% !important;
+    background: #414865;
+    height: auto !important;
+    border-radius: 90px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .imageLayer4 {
+    margin-top: -34.2%;
+    position: absolute;
+    right: 0;
+  }
+  .headingText {
+    margin-right: 0;
+    font-size: 3vw !important;
+  }
+  .descriptionText {
+    margin-right: 0;
+    font-size: 1.2vw !important;
+  }
+  .imageLayer4 {
+    margin-top: -33%;
+    position: absolute;
+    right: 0;
+  }
+}
+@media screen and (max-width: 1325px) {
+  .imageLayer4 {
+    margin-top: -37.8% !important;
+    position: absolute;
+    right: 0;
+  }
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .imageLayer4 {
+    margin-top: -36.5% !important;
+    position: absolute;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 1275px) {
+  .imageLayer4 {
+    margin-top: -34.6%;
+    position: absolute;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 1273px) {
+  .imageLayer4 {
+    margin-top: -36.7%;
+    position: absolute;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 1262px) {
+  .imageLayer4 {
+    margin-top: -35.1%;
+    position: absolute;
+    right: 0;
+  }
+}
+@media screen and (max-width: 1220px) {
+  .imageLayer4 {
+    margin-top: -34.4%;
+    position: absolute;
+    right: 0;
+  }
+  .imageLayer4 > img {
+    width: 672px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1186px) {
+  .imageLayer4 {
+    margin-top: -36.4%;
+    position: absolute;
+    right: 0;
+  }
+  .imageLayer4 > img {
+    width: 682px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 1169px) {
+  .imageLayer4 {
+    margin-top: -37.1%;
+    position: absolute;
+    right: 0;
+  }
+}
+@media screen and (max-width: 1131px) {
+  .imageLayer4 {
+    margin-top: -38.6%;
+    position: absolute;
+    right: 0;
+  }
+}
+@media screen and (max-width: 1123px) {
+  .imageLayer4 {
+    margin-top: -34.9%;
+    position: absolute;
+    right: 0;
+  }
+  .imageLayer4 > img {
+    width: 576px;
+    height: auto;
+  }
+  .containerSlideThirdsl1 {
+    padding-bottom: 7.2%;
+  }
+  .buttonLastBlack {
+    text-decoration: none;
+    padding: 14px 10px;
+    font-size: 0.9vw;
+    color: #fff;
+    position: absolute;
+    margin-top: 1%;
+    width: 153px;
+    background: #414865;
+    height: 42px;
+    border-radius: 90px;
+    text-align: center;
+    margin-left: 0%;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 956px) {
+  .imageLayer4 {
+    margin-top: -36.22%;
+    position: absolute;
+    right: 0;
+  }
+  imageLayer4 > img {
+    width: 551px;
+    height: auto;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 590px) {
+  .containerSlide {
+    background: #ff7277;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 1%;
+    padding-top: 3%;
+  }
+  .imageLayer4 {
+    margin-top: -31.22%;
+    right: 0;
+  }
+  .imageLayer4 > img {
+    width: auto;
+    height: auto;
+    display: none;
+  }
+  .descriptionText {
+    margin-right: 0;
+    font-size: 4.7vw !important;
+  }
+
+  .buttonWhatWeDo {
+    padding: 1.2% 2% 3% 2%;
+    font-size: 4.4vw;
+    color: black;
+    font-weight: bold;
+    width: 50%;
+    background: #fff;
+    margin: auto;
+    margin-top: 1%;
+  }
+  .secondLayerContainer {
+    width: 100%;
+    background: #ff8e92;
+    height: auto;
+    margin-bottom: 20%;
+  }
+  .containerTextInner {
+    width: 100%;
+  }
+  .headingText {
+    font-family: "Harabara Bold";
+    color: #414865;
+    font-size: 37px;
+    text-align: center;
+  }
+  .descriptionText {
+    font-family: "Harabara Medium";
+    color: #414865;
+    text-align: center;
+  }
+  .buttonLastBlack {
+    text-decoration: none;
+    padding: 14px 10px;
+    font-size: 4.7vw !important;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 7%;
+    width: auto;
+    background: #414865;
+    height: auto;
+    border-radius: 90px;
+    text-align: center;
+    margin-left: 23%;
+    font-weight: bold;
+  }
+}

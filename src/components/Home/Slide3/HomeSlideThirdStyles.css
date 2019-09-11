@@ -1,0 +1,529 @@
+@font-face {
+  font-family: "Harabara Bold";
+  src: url("./../../../assets/fonts/Montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Harabara Medium";
+  src: url("./../../../assets/fonts/Montserrat/Montserrat-Medium.ttf");
+}
+
+.containerSlideThirdsl1 {
+  background: #72c6ff;
+
+  min-height: 100%;
+
+  height: auto;
+
+  width: 100%;
+
+  padding-bottom: 9.7%;
+
+  padding-top: 3%;
+}
+.secondLayerContainerThird {
+  width: 80%;
+  /* position: absolute; */
+  background: #8ed1ff;
+  /* margin-top: 100px; */
+  height: 406px;
+}
+
+.imageLayersl1 {
+  margin-top: -24.5%;
+  position: absolute;
+
+  right: 0;
+}
+.imageLayersl1 > img {
+  width: 100%;
+}
+.buttonWhatWeDo {
+  padding: 10px 10px;
+
+  font-size: 0.7vw;
+
+  color: black;
+
+  width: 149px;
+
+  background: #fff;
+
+  height: 37px;
+
+  margin-left: 7%;
+
+  margin-bottom: 2%;
+}
+.buttonWhatWeDo > p {
+  text-align: center;
+}
+.containerTextInnersl1 {
+  padding: 4% 7%;
+  width: 66%;
+  padding-bottom: 4%;
+  padding-left: 7%;
+
+  padding-left: 12%;
+}
+.headingTextsl1 {
+  font-family: "Harabara Bold";
+  color: #414865;
+  font-size: 37px;
+}
+/* .slideDescriptionsl1 {
+} */
+.descriptionTextsl1 {
+  font-family: "Harabara Medium";
+
+  color: #414865;
+
+  font-size: 1vw;
+
+  margin-right: 100px;
+}
+.buttonLastBlacksl1 {
+  text-decoration: none;
+  padding: 5px 10px;
+  font-size: 0.9vw;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 8%;
+  width: 153px;
+  background: #414865;
+  height: 42px;
+  border-radius: 90px;
+  text-align: center;
+  margin-left: 0%;
+  font-weight: bold;
+}
+.buttonLastBlacksl1:hover {
+  color: aliceblue;
+}
+
+@media screen and (max-width: 1920px) {
+  .imageLayersl1 {
+    margin-top: -40.1%;
+    position: absolute;
+    right: 0;
+  }
+  .imageLayersl1 > img {
+    width: 737px;
+    margin-top: -4.4%;
+
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1812px) {
+  .imageLayer4 {
+    margin-top: -26.3%;
+    position: absolute;
+    right: 0;
+  }
+  .imageLayersl1 {
+    margin-top: -26.3%;
+    position: absolute;
+    right: 0;
+  }
+}
+@media screen and (max-width: 1738px) {
+  .imageLayersl1 {
+    margin-top: -27.8%;
+    position: absolute;
+    right: 0;
+  }
+  .imageLayer4 {
+    margin-top: -27.8%;
+    position: absolute;
+    right: 0;
+  }
+  .buttonLastBlack {
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 0.9vw;
+    color: #fff;
+    position: absolute;
+    margin-top: 18%;
+    width: 153px;
+    background: #414865;
+    height: 42px;
+    border-radius: 90px;
+    text-align: center;
+    margin-left: 0%;
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: 1702px) {
+  .imageLayer4 > img {
+    width: 900px;
+    width: 737px;
+    height: auto;
+  }
+  .imageLayer4 {
+    margin-top: -28.5%;
+    position: absolute;
+    right: 0;
+  }
+  .imageLayersl1 {
+    margin-top: -28.6%;
+    position: absolute;
+    right: 0;
+  }
+  /* .imageLayersl1 {
+  margin-top: -31.6%;
+  position: absolute;
+  right: 0;
+} */
+}
+
+@media screen and (max-width: 1640px) {
+  .imageLayer4 {
+    margin-top: -30.1%;
+    position: absolute;
+    right: 0;
+  }
+  .imageLayersl1 {
+    margin-top: -30%;
+    position: absolute;
+    right: 0;
+  }
+}
+@media screen and (max-width: 1402px) {
+  .imageLayersl1 {
+    margin-top: -31.6%;
+    position: absolute;
+    right: 0;
+  }
+  .imageLayer4 {
+    margin-top: -31.9%;
+    position: absolute;
+    right: 0;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1024px) {
+  .buttonWhatWeDo {
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    width: 15%;
+    background: #fff;
+    text-align: center;
+    padding-top: auto;
+    padding: 1% 2% 3% 2%;
+  }
+  .buttonLastBlacksl1 {
+    text-decoration: none;
+    padding-bottom: 15px !important;
+    font-size: 1.7vw !important;
+    margin-top: 4%;
+    color: #fff;
+    width: 15% !important;
+    background: #414865;
+    height: auto !important;
+    border-radius: 90px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .containerTextInnersl1 {
+    width: 67%;
+    margin-bottom: 20%;
+  }
+
+  .headingTextsl1 {
+    font-size: 2.7vw !important;
+  }
+  .descriptionTextsl1 {
+    margin-right: 0;
+    font-size: 1.1vw !important;
+  }
+  .imageLayersl1 {
+    margin-top: -33%;
+    position: absolute;
+    right: 0;
+  }
+}
+@media screen and (max-width: 1325px) {
+  .imageLayersl1 {
+    margin-top: -34.9%;
+    position: absolute;
+    right: 0;
+  }
+}
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .imageLayersl1 {
+    margin-top: -36.5%;
+    position: absolute;
+    right: 0;
+  }
+  .containerTextInnersl1 {
+    width: 67%;
+    margin-bottom: 10%;
+  }
+  .buttonLastBlacksl1 {
+    text-decoration: none;
+    padding-bottom: 10px !important;
+    font-size: 0.9vw !important;
+    margin-top: 0%;
+    color: #fff;
+    width: 10% !important;
+    background: #414865;
+    height: auto !important;
+    border-radius: 90px;
+    text-align: center;
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: 1275px) {
+  .imageLayersl1 {
+    margin-top: -34.6%;
+    position: absolute;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 1273px) {
+  .imageLayer4 {
+    margin-top: -36.8%;
+    position: absolute;
+    right: 0;
+  }
+  .imageLayersl1 {
+    margin-top: -36.7%;
+    position: absolute;
+    right: 0;
+  }
+  .buttonLastBlacksl1 {
+    text-decoration: none;
+    padding: 12px 10px;
+    font-size: 0.9vw;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 0%;
+    width: 153px;
+    background: #414865;
+    height: 42px;
+    border-radius: 90px;
+    text-align: center;
+    margin-left: 0%;
+    font-weight: bold;
+  }
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media screen and (max-width: 1262px) {
+  .imageLayersl1 {
+    margin-top: -35.1%;
+    position: absolute;
+    right: 0;
+  }
+}
+@media screen and (max-width: 1220px) {
+  .imageLayersl1 {
+    margin-top: -34.4%;
+    position: absolute;
+    right: 0;
+  }
+  .imageLayersl1 > img {
+    width: 672px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1186px) {
+  .imageLayersl1 {
+    margin-top: -36.4%;
+    position: absolute;
+    right: 0;
+  }
+  .imageLayersl1 > img {
+    width: 682px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 1169px) {
+  .imageLayersl1 {
+    margin-top: -37.1%;
+    position: absolute;
+    right: 0;
+  }
+}
+@media screen and (max-width: 1131px) {
+  .imageLayersl1 {
+    margin-top: -38.6%;
+    position: absolute;
+    right: 0;
+  }
+}
+@media screen and (max-width: 1123px) {
+  .imageLayersl1 {
+    /* display: none;
+    visibility: hidden */
+  }
+  .imageLayersl1 {
+    margin-top: -37%;
+    position: absolute;
+    right: 0;
+  }
+
+  .secondLayerContainerThird {
+    width: 85%;
+  }
+  .imageLayersl1 > img {
+    width: 570px;
+    height: auto;
+  }
+}
+@media (min-width: 600px) and (max-width: 772px) {
+  .containerTextInnersl1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 45%;
+  }
+  .buttonLastBlacksl1 {
+    text-decoration: none;
+    padding-bottom: 19px !important;
+    font-size: 4.7vw !important;
+    color: #fff;
+    position: absolute;
+    width: 30% !important;
+    background: #414865;
+    height: auto !important;
+    border-radius: 90px;
+    text-align: center;
+    margin-left: 25% !important;
+    font-weight: bold;
+  }
+  .imageLayersl1 {
+    margin-top: -42.71% !important;
+    position: absolute;
+    right: 0;
+  }
+  .imageLayersl1 > img {
+    width: 551px;
+    height: auto;
+  }
+  .descriptionTextsl1 {
+    margin-right: 0;
+    font-size: 4vw !important;
+  }
+  .headingTextsl1 {
+    margin-right: 0;
+    font-size: 6vw !important;
+  }
+
+  .buttonWhatWeDo {
+    font-size: 3.4vw;
+    font-weight: bold;
+    color: black;
+    width: 50%;
+    padding-top: 6%;
+    margin: auto;
+    background: #fff;
+    text-align: center;
+    height: auto;
+  }
+  .secondLayerContainerThird {
+    width: 100%;
+    background: #8ed1ff;
+    height: auto;
+    margin-bottom: 60%;
+  }
+  .containerTextInnersl1 {
+    width: 100%;
+  }
+  .headingTextsl1 {
+    font-family: "Harabara Bold";
+    color: #414865;
+    font-size: 37px;
+    text-align: center;
+  }
+  .descriptionTextsl1 {
+    font-family: "Harabara Medium";
+    color: #414865;
+    text-align: center;
+  }
+
+  .imageLayersl1 {
+    margin-top: -34.5%;
+    margin-right: 90px !important;
+    display: block;
+    margin-left: 15%;
+  }
+  .containerSlideThirdsl1 {
+    padding-bottom: 14.2% !important;
+  }
+}
+@media (min-width: 320px) and (max-width: 590px) {
+  .containerSlideThirdsl1 {
+    background: #72c6ff;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 1%;
+    padding-top: 3%;
+  }
+
+  .imageLayersl1 > img {
+    width: auto;
+    height: auto;
+    display: none;
+  }
+  .descriptionTextsl1 {
+    margin-right: 0;
+    font-size: 4.7vw !important;
+  }
+
+  .buttonWhatWeDo {
+    padding: 1.2% 2% 3% 2%;
+    font-size: 4.4vw;
+    color: black;
+    font-weight: bold;
+    width: 50%;
+    background: #fff;
+    margin: auto;
+    margin-top: 1%;
+  }
+  .secondLayerContainerThird {
+    width: 100%;
+    background: #8ed1ff;
+    height: auto;
+    margin-bottom: 12%;
+  }
+  .containerTextInnersl1 {
+    width: 100%;
+  }
+  .headingTextsl1 {
+    font-family: "Harabara Bold";
+    color: #414865;
+    font-size: 37px;
+    text-align: center;
+  }
+  .descriptionTextsl1 {
+    font-family: "Harabara Medium";
+    color: #414865;
+    text-align: center;
+  }
+  .buttonLastBlacksl1 {
+    text-decoration: none;
+    padding: 14px 10px;
+    font-size: 4.7vw !important;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 7%;
+    width: auto;
+    background: #414865;
+    height: auto;
+    border-radius: 90px;
+    text-align: center;
+    margin-left: 23%;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "Harabara Bold";
+  src: url("./../../assets/fonts/Lato2OFL/Lato-Heavy.ttf");
+}
+
+@font-face {
+  font-family: "Lato Bold";
+  src: url("./../../assets/fonts/Lato2OFL/Lato-Bold.ttf");
+}
+
+.containerSTyle {
+  background-position: fixed;
+  padding: 3.1%;
+  /* display: flex; */
+  /* align-items: center; */
+  background: #eb5d5f;
+  height: auto;
+}
+.containerText {
+  font-size: 1.2vw;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.containerEmailInput {
+  /* margin-right: 40px; */
+  float: left;
+  margin-top: 4%;
+  /* position: absolute; */
+  border: none;
+  width: 100%;
+  border-radius: 35px;
+  padding: 17px;
+  padding-left: 20px;
+  letter-spacing: 0.5;
+  font-size: 0.9vw;
+}
+
+/* Subscribe btns */
+.subscribeBtnSus {
+  float: right;
+  /* margin-left: 20px; */
+  width: 100%;
+  text-align: center;
+  /* display: flex; */
+  align-items: center;
+  padding: 11px;
+  /* padding-left: 35px; */
+  background: #03b9fe;
+  border-radius: 30px;
+  font-size: 0.8vw;
+  color: white;
+  margin-top: 16%;
+}
+@media (min-width: 300px) and (max-width: 590px) {
+  .sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .subscribeBtnSus {
+    text-align: center;
+    align-items: center;
+    padding: 11px;
+    background: #03b9fe;
+    border-radius: 30px;
+    color: white;
+    font-size: 5vw;
+    margin-top: 10%;
+  }
+  .containerEmailInput {
+    font-size: 5vw;
+  }
+  .textBottomTab {
+    width: 50%;
+    margin-left: 27%;
+  }
+  .containerSTyle {
+    padding: 11% 3%;
+  }
+  .containerText {
+    font-size: 5.2vw;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+/* If max- width 1093 */
+@media screen and (max-width: 1093px) {
+  .containerSTyle {
+    padding: 8%;
+  }
+}
+/* If max- width 1093 */
+@media (min-width: 1000px) and (max-width: 1024px) {
+  .containerText {
+    font-size: 3vw;
+  }
+  .containerEmailInput {
+    font-size: 2.58vw;
+  }
+  .subscribeBtnSus {
+    font-size: 1.6vw;
+  }
+}
+
+/* If max- width 1093 */
+@media (min-width: 600px) and (max-width: 768px) {
+  .containerText {
+    font-size: 3vw;
+  }
+  .containerEmailInput {
+    font-size: 2.58vw;
+  }
+  .subscribeBtnSus {
+    font-size: 1.6vw;
+  }
+}
